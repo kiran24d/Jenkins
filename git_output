@@ -83,3 +83,150 @@
    83  git status
    84  ls
    85  history > git_output
+   86  ls
+   87  cat git_output 
+   88  git add .
+   89  ls
+   90  git reset HEAD *.doc
+   91  ls
+   92  git status
+   93  git add.
+   94  git commit -m "output"
+   95  ls
+   96  rm temp.doc 
+   97  git commit -am "revert"
+   98  ls
+   99  git log --oneline
+  100  git log
+  101  git show
+  102  ls
+  103  git reflog demo.txt
+  104  git reflog index.html
+  105  cat demo.txt
+  106  git reflog
+  107  git difftool HEAD~4 index.html
+  108  git status
+  109  vi index.html
+  110  git status
+  111  git diff
+  112  vi index.html
+  113  git diff
+  114  git add .
+  115  git commit -m " + = - "
+  116  git status
+  117  git diff
+  118  git diff
+  119  git reflog
+  120  git reflog HEAD~4 HEAD~8
+  121  git reflog HEAD~4 HEAD~8 index.html
+  122  git log --oneline
+  123  git add --amend -m "demo"
+  124  git commit --amend -m "demo"
+  125  git log --oneline
+  126  ls
+  127  git tag -a release1.0 b8c5b79 -m "adding a tag"
+  128  git tag
+  129  git show release1.0
+  130  git log --oneline index.html
+  131  git history
+  132  cat git_output 
+  133  git log
+  134  git log -p -5
+  135  it reset
+  136  git resetgit jnfwhfwmf jkwjnjk
+  137  git reset
+  138  git log
+  139  git history
+  140  git status
+  141  vi index.html 
+  142  git log --oneline
+  143  git revert 28cd043
+  144  git add .
+  145  git commit -m "commited"
+  146  git status
+  147  git log --oneline index.html
+  148  git revert b8c5b79
+  149  vi index.html 
+  150  git revert b8c5b79
+  151  vi index.html 
+  152  git show b8c5b79 index.html
+  153  git log --oneline index.html
+  154  git revert b8c5b79
+  155  git revert b072b21
+  156  vi index.html 
+  157  git add .
+  158  git commit -m " new"
+  159  git revert b072b21
+  160  git status
+  161  git revert --continue
+  162  git add index.html 
+  163  git commit -m "new"
+  164  git status
+  165  git revert b072b21
+  166  vi index.html 
+  167  git add index.html 
+  168  git status
+  169  git commit -m "new1"
+  170  git status
+  171  git log --oneline
+  172  git revert d224374
+  173  git log --oneline index.html
+  174  git revert c54ffaf
+  175  git revert b327565
+  176  git ls-files
+  177  git revert b327565
+  178  git revert b327565 REVERTING
+  179  git revert 
+  180  git log --oneline
+  181  vi demo1.rb
+  182  git add .
+  183  git commit -m "new file"
+  184  git status
+  185  git rm demo.rb
+  186  git rm demo1.rb
+  187  git status
+  188  git log --oneline
+  189  ls
+  190  git reset HEAD~1 demo1.rb
+  191  ls
+  192  git status
+  193  git reset HEAD~demo1.rb
+  194  git reset HEAD demo1.rb
+  195  ls
+  196  git status
+  197  git add .
+  198  ls
+  199  git add demo1.rb
+  200  git status
+  201  git reset HEAD demo1.rb
+  202  git status
+  203  git add demo1.rb
+  204  git status
+  205  git commit -m "new file1"
+  206  ls
+  207  git status
+  208  vi demo1.rb
+  209  git add demo1.rb
+  210  git commit -m "new file12"
+  211  git status
+  212  ls
+  213  git rm demo1.rb 
+  214  ls
+  215  git status
+  216  git reset HEAD demo1.rb
+  217  ls
+  218  git show
+  219  git log
+  220  ls
+  221  git status
+  222  git commit -am "new"
+  223  ls
+  224  git log --oneline
+  225  git checkout --demo1.rb
+  226  git status
+  227  get --help
+  228  git --help
+  229  ls
+  230  cat git_output 
+  231  git history > git_output
+  232  history > git_output
