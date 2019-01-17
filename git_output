@@ -230,3 +230,114 @@
   230  cat git_output 
   231  git history > git_output
   232  history > git_output
+  233  cat git_output 
+  234  undo git rm -rf
+  235  vi neeraj.txt
+  236  git add .
+  237  git status
+  238  get commit -m " git new"
+  239  git status
+  240  ls
+  241  git rm -r neeraj.txt 
+  242  git rm neeraj.txt 
+  243  ls
+  244  git rm neeraj.txt 
+  245  git rm -r neeraj.txt 
+  246  git rm -f neeraj.txt 
+  247  git status
+  248  ls
+  249  git reset HEAD neeraj.txt
+  250  git status
+  251  git checkout
+  252  git checkout neeraj.txt
+  253  ls
+  254  git status
+  255  ls -a
+  256  git reset
+  257  git reset git_output
+  258  ls
+  259  cat git_output 
+  260  vi zook.txt
+  261  git add .
+  262  git commit -m "v1"
+  263  ls
+  264  git log --oneline
+  265  git log --oneline zook.txt
+  266  vi zook.txt
+  267  git commit -am "v2"
+  268  git log --oneline zook.txt
+  269  git reset --hard 9863e6c
+  270  git log --oneline zook.txt
+  271  git status
+  272  git branch Kiran
+  273  git branch 
+  274  git checkout Kiran
+  275  ls
+  276  git pull
+  277  git pull master
+  278  git checkout master
+  279  ls
+  280  ls
+  281  git log --oneline zook.txt
+  282  vi zook.txt
+  283  git add .
+  284  git commit -am "v3"
+  285  git log --oneline zook.txt
+  286  get reset --soft 9863e6c
+  287  git reset --soft 9863e6c
+  288  git log --oneline zook.txt
+  289  git status
+  290  vi zook.txt
+  291  git commit -am "v4"
+  292  git status
+  293  git log --oneline zook.txt
+  294  git branch
+  295  git checkout kiran
+  296  git branch
+  297  vi index.html 
+  298  git commit -am "chahes"
+  299  cat index.html 
+  300  git checkout master
+  301  git branch
+  302  cat index.html 
+  303  git merge kiran
+  304  cat index.html 
+  305  git checkout kiran
+  306  vi index.html 
+  307  git commit -am "changes"
+  308  git checkout master
+  309  cat index.html 
+  310  git merge kiran
+  311  cat index.html 
+  312  git checkout -b bugfix
+  313  ls
+  314  vi bugfix.sol
+  315  git status
+  316  git commit -am "changes22"
+  317  git add .
+  318  git commit -m "new msg "
+  319  git checkout master
+  320  git merge bugfix 
+  321   ls
+  322  git status
+  323  git commit -am "bugfix file"
+  324  cat bugfix.sol 
+  325  git checkout bugfix 
+  326  vi bugfix.sol 
+  327  git commit -am "bugfix file11"
+  328  git checkout master
+  329  git merge bugfix 
+  330  ls
+  331  cat bugfix.sol 
+  332  vi bugfix.sol 
+  333  git commit -am "bugfix file111"
+  334  git checkout bugfix 
+  335  vi bugfix.sol 
+  336  git commit -am "bugfix file1111"
+  337  git checkout master
+  338  git merge bugfix 
+  339  vi bugfix.sol 
+  340  git commit -am " new confli"
+  341  git merge bugfix 
+  342  cat bugfix.sol 
+  343  history > git_output 
